@@ -1,0 +1,139 @@
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.container {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    height: 90%;
+    width: 200%;
+    margin : 0px
+}
+
+input[value] {
+    background-color: #58145a;
+    color:black !important; 
+    /* font-weight: bold; */
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid #58145a;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 120px;
+    margin-top: 5%;
+}
+
+.form {
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 600px;
+    flex-direction: column;
+}
+.top{
+    background-color:rgb(58, 57, 57);
+    color:azure;
+    font-family: 'Sarpanch', sans-serif;
+}
+.whiteForm{
+    background-color:aliceblue;
+    width:100%;
+}
+.container{
+    margin-top:1000px;
+    padding: 15px;
+    text-align:center;
+    opacity:0.9;
+}
+.row{
+    background-color:aliceblue;
+    opacity:0.8;
+    margin:5px;
+    padding:10px;
+    border-bottom:2px solid rgb(18, 18, 80)
+}
+.row:hover{
+    background-color:rgb(205, 221, 236);
+}
+.name{
+    text-transform: capitalize;
+}
+thead{
+    background-color: rgb(230, 147, 117)
+}
+thead>td{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: aliceblue
+    /* color: rgb(34, 73, 72) */
+}
+td{
+    text-align:left;
+    font-size: 18px;
+    padding:15px 20px;
+    font-weight: bold
+}
+.heading{
+    color:whitesmoke;
+    background-color:rgb(21, 92, 77);
+    opacity:0.7;
+    padding:10px;
+    text-align: center;
+    margin:15px
+}
+table{
+    margin:20px;
+}
+.box{
+    width:70%;
+   padding:5px;
+   margin:10px;
+   margin-bottom:15px;
+   background-color: aliceblue;
+   opacity:0.7;
+   padding-left:30px;
+   padding-bottom:20px;
+   width:45%;
+   margin:10px auto 10px auto;
+   border: 2px solid rgb(72, 72, 138);
+   margin-left: 15px
+}
+box>p{
+    font-size:18px;
+}
+.box:hover{
+    border: 4px solid rgb(72, 72, 138)
+}
+#cards{
+display: flex;
+flex-wrap: wrap
+}
+.div-heading{
+    color:rgb(72, 72, 138)
+}
+/* .view>div{
+   text-align:center;
+} */
+.para{
+    font-weight: bold
+}
+.para u{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

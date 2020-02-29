@@ -1,0 +1,18 @@
+#head{
+    padding-left:10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: azure;
+    text-align:left;
+    background-color:#0c133a;
+    opacity:0.8
+}
+#logo{
+  margin:0px;
+  font-size:38px;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+/* img{
+  width:100px;
+} */
